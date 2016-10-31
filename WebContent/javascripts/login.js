@@ -15,7 +15,7 @@ var myapp = angular.module('myapp', []);
      .then(function(response) {
       if(response.status==200)
 	   {
-		   
+		   console.log("true");
     	  if(response.data==="valid") //modified
 		   {
     		  alert("true");
